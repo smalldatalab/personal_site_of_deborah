@@ -107,7 +107,14 @@ div#content {
 margin-top: 20px;
 }
 
-div#content p, div#media_area li, div#projects_area li, div#extra p, div#sidebar p, div#underline li, div#picture p {
+div#underline li {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+color: #444;
+line-height:1.8em;
+}
+
+div#content p, div#media_area li, div#projects_area li, div#extra p, div#sidebar p, div#picture p {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 15px;
 color: #444;
