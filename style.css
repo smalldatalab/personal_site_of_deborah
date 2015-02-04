@@ -20,7 +20,7 @@ body {
 	margin-top: 20px;
 }
 
-div#content a, div#extra a, div#sidebar a, div#press a, div#projects a {
+div#content a, div#extra a, div#sidebar a, div#press a, div#projects_area a {
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
@@ -107,7 +107,7 @@ div#content {
 margin-top: 20px;
 }
 
-div#content p, div#media_area li, div#projects_area li, div#extra p, div#sidebar p, div#underline li, div#picture p {
+div#content p, div#media_area li, div#projects_area p, div#extra p, div#sidebar p, div#underline li, div#picture p {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 15px;
 color: #444;
@@ -121,6 +121,10 @@ color: #b31b1b;
 text-decoration: none; 
 padding: 3px 6px; 
 border-bottom: 1px solid #b31b1b; 
+}
+div#projects_area li {
+font-size: 17px;
+line-height: 3.0em;
 }
 
 div#content h1 {
@@ -169,10 +173,6 @@ margin-right: auto;
 width: 100%;
 }
 
-
-
-
-
 div#projects_area a, div#media_area a {
 color: black;
 
@@ -182,13 +182,7 @@ div#projects_area a:hover, div#media_area a:hover {
 color: #b31b1b; 
 }
 
-
-div#projects {
-/*float: left;*/
-width:330px;	
-}
-
-div#small_data_image {
+img#small_data_image {
 /*float: right;*/
 width: 400px;
 }
