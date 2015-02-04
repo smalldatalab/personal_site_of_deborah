@@ -20,7 +20,7 @@ body {
 	margin-top: 20px;
 }
 
-div#content a, div#extra a, div#sidebar a, div#press a, div#projects a {
+div#content a, div#extra a, div#sidebar a, div#press a, div#projects_area a {
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
@@ -65,6 +65,13 @@ div#header h2 { /* The tagline thing */
 	/*margin-top: -15px;*/
 }
 
+div#underline li {
+ font-size: 12px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: #444;
+ line-height:1.8em;
+}
+
 div#header a {
 color: black;
 font-weight: bold;
@@ -107,7 +114,7 @@ div#content {
 margin-top: 20px;
 }
 
-div#content p, div#media_area li, div#projects_area li, div#extra p, div#sidebar p, div#underline li, div#picture p {
+div#content p, div#media_area li, div#projects_area p, div#extra p, div#sidebar p, div#picture p {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 15px;
 color: #444;
@@ -121,6 +128,10 @@ color: #b31b1b;
 text-decoration: none; 
 padding: 3px 6px; 
 border-bottom: 1px solid #b31b1b; 
+}
+div#projects_area li {
+font-size: 17px;
+line-height: 3.0em;
 }
 
 div#content h1 {
@@ -159,7 +170,7 @@ margin-top: 20px;
 div#email {
 float: right;
 font-size: 20px;
-margin-top: 40px;
+margin-top: 60px;
 color: #b31b1b;
 }
 
@@ -168,10 +179,6 @@ margin-left: auto;
 margin-right: auto;
 width: 100%;
 }
-
-
-
-
 
 div#projects_area a, div#media_area a {
 color: black;
@@ -182,13 +189,7 @@ div#projects_area a:hover, div#media_area a:hover {
 color: #b31b1b; 
 }
 
-
-div#projects {
-/*float: left;*/
-width:330px;	
-}
-
-div#small_data_image {
+img#small_data_image, img#healthier_life_hub_image {
 /*float: right;*/
 width: 400px;
 }
