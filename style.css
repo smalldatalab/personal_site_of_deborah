@@ -82,8 +82,12 @@ div#header a:hover {
 color: #b31b1b;
 }
 
-div#projects li a{
-color: #b31b1b;
+div#projects li {
+list-style-type: none;
+}
+
+div#projects li a {
+	color: #b31b1b;
 
 }
 
