@@ -1,4 +1,4 @@
-/* 
+/*
 =======================================================
 Lemon CSS
 
@@ -24,8 +24,8 @@ div#content a, div#extra a, div#sidebar a, div#press a, div#projects_area a {
 	color: black;
 	font-weight: bold;
 	text-decoration: none;
-	/*background-color: #FAFAFA; 
-	border-bottom: 1px solid #F1F1F1; 
+	/*background-color: #FAFAFA;
+	border-bottom: 1px solid #F1F1F1;
 	border-right: 1px solid #F1F1F1;*/
 	padding: 1px;
 }
@@ -34,8 +34,8 @@ div#content a:hover , div#extra a:hover, div#sidebar a:hover {
 	color: #b31b1b;
 	font-weight: bold;
 	text-decoration: none;
-	/*background-color: #FAFAFA; 
-	border-bottom: 1px solid #CCC; 
+	/*background-color: #FAFAFA;
+	border-bottom: 1px solid #CCC;
 	border-right: 1px solid #CCC;*/
 	padding: 1px;
 }
@@ -79,7 +79,12 @@ font-weight: bold;
 }
 
 div#header a:hover {
-color: #b31b1b;	
+color: #b31b1b;
+}
+
+div#projects li a{
+color: #b31b1b;
+
 }
 
 /*#navigation {
@@ -124,10 +129,10 @@ line-height:1.8em;
 div#extra h1, div#media_area h1, div#projects_area h1, div#sidebar h1, div#picture h1, div#tweets h1 {
 font-size: 20px;
 font-weight: normal;
-color: #b31b1b; 
-text-decoration: none; 
-padding: 3px 6px; 
-border-bottom: 1px solid #b31b1b; 
+color: #b31b1b;
+text-decoration: none;
+padding: 3px 6px;
+border-bottom: 1px solid #b31b1b;
 }
 div#projects_area li {
 font-size: 17px;
@@ -137,9 +142,9 @@ line-height: 3.0em;
 div#content h1 {
 font-size: 20px;
 font-weight: normal;
-color: #b31b1b; 
-text-decoration: none; 
-padding: 3px 6px; 
+color: #b31b1b;
+text-decoration: none;
+padding: 3px 6px;
 }
 
 div#content h2 {
@@ -166,7 +171,7 @@ float:left;
 width:300px;
 margin-top: 20px;
 }*/
- 
+
 div#email {
 float: right;
 font-size: 20px;
@@ -186,7 +191,7 @@ color: black;
 }
 
 div#projects_area a:hover, div#media_area a:hover {
-color: #b31b1b; 
+color: #b31b1b;
 }
 
 img#small_data_image, img#healthier_life_hub_image {
@@ -197,7 +202,7 @@ width: 400px;
 
 div#tweets {
 /*float:right;*/
-width:400px;	
+width:400px;
 }
 
 div#sidebar {
@@ -209,7 +214,7 @@ div#extra {
 float:left;
 width:330px;
 }
-div#press { 
+div#press {
 /*float: left;*/
 width:330px;
 }
@@ -236,7 +241,7 @@ width:100%;
 color: #FFF;
 font-weight: bold;
 text-decoration: none;
-border-bottom: 1px solid #b31b1b; 
+border-bottom: 1px solid #b31b1b;
 border-right: 1px solid #b31b1b;
 }
 
