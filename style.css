@@ -222,7 +222,10 @@ div#press {
 /*float: left;*/
 width:330px;
 }
-
+div#press_subsection {
+	height: 200px;
+	overflow: scroll;
+}
 div#footer {
 margin-top: 60px;
 background-color: #b31b1b;
@@ -249,6 +252,10 @@ border-bottom: 1px solid #b31b1b;
 border-right: 1px solid #b31b1b;
 }
 
+
+iframe#twitter-widget-0 {
+	height: 550px !important;
+}
 /*
 
  Would be nice if you could keep this credit below. Thanks.
