@@ -16,7 +16,7 @@ html,body {
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	text-align:center;
+	/*text-align:center;*/
 	margin-top: 20px;
 }
 
@@ -89,6 +89,10 @@ list-style-type: none;
 div#projects li a {
 	color: #b31b1b;
 
+}
+
+ol li {
+  padding-top: 10px;
 }
 
 /*#navigation {
