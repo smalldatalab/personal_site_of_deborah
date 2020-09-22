@@ -85,10 +85,10 @@ body {
     padding-bottom: 8px;
 }
 
-.nav-item {
-    padding-top: 15px;
-    margin-left: 15px;
-}
+/*.nav-item {*/
+    /*padding-top: 15px;*/
+    /*margin-left: 15px;*/
+/*}*/
 
 .nav > li > a:hover,
 .nav > li > a:focus,
