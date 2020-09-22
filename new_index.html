@@ -23,31 +23,44 @@
             </a>
 
             <ul class="nav flex-column">
-                <li class="nav-item"><a
-                        href="#" aria-current="page">About</a></li>
-                <li class="nav-item"><a href="/research/">Research</a></li>
-                <li class="nav-item "><a href="teaching.html">Teaching</a></li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="publications-tab" data-toggle="tab" href="#publications" role="tab" aria-controls="publications" aria-selected="false">Publications</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="presentations-tab" data-toggle="tab" href="#presentations" role="tab" aria-controls="presentations" aria-selected="false">Presentations</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="students-tab" data-toggle="tab" href="#students" role="tab" aria-controls="students" aria-selected="false">Students and Collaborators</a>
+                </li>
+                <li class="nav-item " role="presentation">
+                    <a class="nav-link" id="teaching-tab" data-toggle="tab" href="#teaching" role="tab" aria-controls="teaching" aria-selected="false">Current Teaching</a>
+                </li>
             </ul>
 
         </div>
 
         <div class="content col-md-7  col-sm-7">
+            <div class="tab-content">
+                <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
-            <p class="heading">About</p>
+                    <p class="heading">About</p>
 
-            <p class="p1">
-                <img class="alignleft size-medium" src="images/deborah_cropped_version.png"
-                     alt="" width="260" height="250"
-                     sizes="(max-width: 120px) 100vw, 100px">
-                <span class="s1"> Deborah Estrin is a Professor of Computer Science at Cornell Tech
+                    <p class="p1">
+                        <img class="alignleft size-medium" src="images/deborah_cropped_version.png"
+                             alt="" width="260" height="250"
+                             sizes="(max-width: 120px) 100vw, 100px">
+                        <span class="s1"> Deborah Estrin is a Professor of Computer Science at Cornell Tech
                     in New York City where she holds The Robert V. Tishman Founder's Chair, serves
                     as the Associate Dean for Impact, and is an affiliate faculty at Weill Cornell
                     Medicine. Estrin's research activities include technologies for caregiving, digital
                     health, small data, participatory sensing, and Public Interest Technology.
                 </span>
-            </p>
+                    </p>
 
-            <p class="p1">
+                    <p class="p1">
                 <span class="s1"> Before joining Cornell University Estrin was the Founding Director
                     of the NSF Center for Embedded Networked Sensing (CENS) at UCLA; pioneering the
                     development of mobile and wireless systems to collect and analyze real time data
@@ -55,25 +68,62 @@
                     and has served on several scientific advisory boards for
                 early stage mobile health startups. She is currently an Amazon Scholar (2019-present).
                 </span>
-            </p>
+                    </p>
 
-            <p class="p1">
+                    <p class="p1">
                 <span class="s1"> Estrin's honors include: ACM Athena Lecture (2006), Anita Borg
                     Institute's Women of Vision Award for Innovation (2007), the IEEE Internet Award (2017),
                     and MacArthur Fellowship (2018). She is an elected member of the American Academy
                     of Arts and Sciences (2007), the National Academy of Engineering (2009), and the
                     National Academy of Medicine.
-</span>
-            </p>
+                </span>
+                    </p>
+                </div>
+
+                <div class="tab-pane" id="publications" role="tabpanel" aria-labelledby="publications-tab">
+
+                    <p class="heading">Publications</p>
+                    <p class="p1">
+                <span class="s1"> Publications
+                </span>
+                    </p>
+                </div>
+
+                <div class="tab-pane" id="presentations" role="tabpanel" aria-labelledby="presentations-tab">
+
+                    <p class="heading">Presentations</p>
+                    <p class="p1">
+                        <span class="s1"> presentations
+                        </span>
+                    </p>
+                </div>
+
+                <div class="tab-pane" id="students" role="tabpanel" aria-labelledby="students-tab">
+
+                    <p class="heading">Students</p>
+                    <p class="p1">
+                        <span class="s1"> students
+                        </span>
+                    </p>
+                </div>
+
+                <div class="tab-pane" id="teaching" role="tabpanel" aria-labelledby="teaching-tab">
+
+                    <p class="heading">Teaching</p>
+                    <p class="p1">
+                <span class="s1"> Teaching
+                </span>
+                    </p>
+                </div>
+            </div>
         </div>
-
     </div>
-
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 </body>
