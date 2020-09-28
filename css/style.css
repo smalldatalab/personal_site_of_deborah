@@ -39,6 +39,12 @@ body {
     max-width: 70%;
 }
 
+h5 {
+    margin: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
 .navbar-brand h1 {
     font-size: 16px;
     margin-top: 0;
@@ -78,6 +84,10 @@ body {
     letter-spacing: 2.5px;
 }
 
+li {
+    margin: 10px;
+}
+
 .nav > li > a,
 .copyright a {
     color: #aeaeae;
@@ -109,7 +119,6 @@ body {
 .nav > li + li {
     margin-top: 0;
 }
-
 
 .content .heading {
     font-size: 14px;
