@@ -40,7 +40,8 @@ body {
 }
 
 h5 {
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-size: 18px;
     font-weight: 300;
 }
@@ -116,9 +117,9 @@ li {
     border: none;
 }
 
-.nav > li + li {
-    margin-top: 0;
-}
+/*.nav > li + li {*/
+    /*margin-top: 0;*/
+/*}*/
 
 .content .heading {
     font-size: 14px;
