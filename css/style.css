@@ -39,6 +39,10 @@ body {
     /*max-width: 70%;*/
 }
 
+.list-group-item{
+    padding: 2px;
+}
+
 h5 {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -118,7 +122,7 @@ li {
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-    background-color: none;
+    background-color: initial;
     border: none;
 }
 
