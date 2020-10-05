@@ -2,6 +2,9 @@
 License: GNU General Public License v2 or later
 */
 
+html {
+  scroll-behavior: smooth;
+}
 
 .cf:before,
 .cf:after {
@@ -94,15 +97,12 @@ h5 {
     font-size: 13px;
 }
 
-li {
-    margin: 10px;
-}
 
 .nav > li > a,
 .copyright a {
     color: #aeaeae;
-    padding-top: 5px;
-    padding-bottom: 8px;
+    padding-top: 15px;
+    padding-bottom: 18px;
 }
 
 /*.nav-item {*/

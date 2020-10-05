@@ -11,52 +11,36 @@
 
 
 </head>
-<body class="home page-template-default page page-id-9">
+<body class="page-template-default page page-id-9">
+<a id="top"></a>
 <div id="container">
 
     <div class="row">
-
         <div class="col-md-3 offset-1 col-10" id="affix-nav">
-
             <a class="logo" href="#home" data-toggle="tab">
                 <h1>Deborah Estrin</h1>
             </a>
-
             <ul class="nav flex-xs-row flex-md-column justify-content-between">
-                <!--<li class="nav-item" role="presentation">-->
-                <!--<a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>-->
-                <!--</li>-->
-                <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="research-tab" data-toggle="collapse" href="#research">Publications</a>
-                    <div id="research" class="collapse">
-                        <ul class="nav flex-xs-row flex-md-column ml-3">
-                            <li class="nav-item">
-                                <a class="nav-link" id="conferences-tab" href="#conferences" data-toggle="tab" role="tab" aria-controls="conferences" aria-selected="false">Conferences</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="journals-tab" href="#journals" data-toggle="tab" role="tab" aria-controls="journals" aria-selected="false">Journals</a>
-                            </li>
-                        </ul>
-                    </div>
+                <li class="nav-item col-6" role="presentation">
+                    <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
                 </li>
-                <li class="nav-item" role="presentation">
+                <li class="nav-item col-6" role="presentation">
+                    <a class="nav-link" id="conferences-tab" href="#conferences" data-toggle="tab" role="tab" aria-controls="conferences" aria-selected="false">Publications</a>
+                </li>
+                <li class="nav-item col-6" role="presentation">
                     <a class="nav-link" id="presentations-tab" data-toggle="tab" href="#presentations" role="tab" aria-controls="presentations" aria-selected="false">Presentations</a>
                 </li>
-                <li class="nav-item" role="presentation">
+                <li class="nav-item col-6" role="presentation">
                     <a class="nav-link" id="students-tab" data-toggle="tab" href="#students" role="tab" aria-controls="students" aria-selected="false">Students</a>
                 </li>
-                <!--<li class="nav-item" role="presentation">-->
-                <!--<a class="nav-link" id="collaborators-tab" data-toggle="tab" href="#collaborators" role="tab" aria-controls="collaborators" aria-selected="false">Collaborators</a>-->
-                <!--</li>-->
-                <li class="nav-item " role="presentation">
+                <li class="nav-item col-6" role="presentation">
                     <a class="nav-link" id="teaching-tab" data-toggle="tab" href="#teaching" role="tab" aria-controls="teaching" aria-selected="false">Teaching</a>
                 </li>
             </ul>
-
         </div>
 
         <div class="content col-md-7 col-lg-6 col-xl-5  offset-1 offset-md-0 col-10">
-            <div class="tab-content">
+            <div class="tab-content" id="myTabContent">
                 <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
                     <p class="heading">About</p>
@@ -166,7 +150,6 @@
 
                 </div>
 
-
                 <div class="tab-pane" id="teaching" role="tabpanel" aria-labelledby="teaching-tab">
                     <h5>Teaching 2020-21</h5>
 
@@ -179,7 +162,7 @@
 
                 <div class="tab-pane" id="conferences" role="tabpanel" aria-labelledby="publications-tab">
 
-                    <h5>Conference Publications</h5>
+                    <h5 id="conference-pubs">Conference Publications (to <a href="#journal-pubs">Journals</a>)</h5>
 
                     <ol class="tables">
 
@@ -1000,11 +983,8 @@
 
                         <li>ESTRIN, D. 1985. Non-Discretionary Controls for Inter-Organization Networks. In <i>Proceedings of IEEE Symposium on Security and Privacy</i>, April 1985.</li>
                     </ol>
-                </div>
 
-
-                <div class="tab-pane" id="journals" role="tabpanel" aria-labelledby="journal-tab">
-                    <h5>Journal Publications</h5>
+                    <h5 id="journal-pubs">Journal Publications (to <a href="#top">Conferences</a>)</h5>
                     <ol>
                         <li>CASILLAS, J.N., SCHWARTZ, L.F., CRESPI, C.M., GANZ, P.A., KAHN, K.L., STUBER, M.L.,
                             BASTANI, R., ALQUADDOMI, F. AND ESTRIN, D.
